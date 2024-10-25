@@ -1,0 +1,16 @@
+body {
+    background-color:wheat;
+}
+
+h1 {
+    font-family: "Snell Roundhand", "Brush Script Std", cursive; 
+    font-size: 45px;
+}
+
+li {
+    font-family: "URW Chancery L", cursive;
+}
+
+.desc {
+    font-family: "Apple Chancery", cursive;
+}
