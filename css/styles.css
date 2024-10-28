@@ -1,16 +1,46 @@
 body {
     background-color:wheat;
+    width: 100%;
 }
 
 h1 {
     font-family: "Snell Roundhand", "Brush Script Std", cursive; 
-    font-size: 45px;
+    font-size: 45px; 
+    text-align: center;
 }
 
-li {
+/* li {
     font-family: "URW Chancery L", cursive;
-}
+} */
 
 .desc {
     font-family: "Apple Chancery", cursive;
+}
+
+.recipes {
+    text-align: center;
+}
+
+.home-a {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 10px outset black;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 25px 50px;
+    text-decoration: none
+}
+
+.home-img {
+    width: 100%;
+    height: 85%;
+}
+
+.home-a p {
+    font-size: 25px;
+    font-family: "URW Chancery L", cursive;
+    color: black;
+    margin: 5px 0;
 }

@@ -9,10 +9,13 @@
         <link rel = "stylesheet" href = "./css/styles.css">
     </head>
     <body>
+        <!-- I was thinking here perhaps we could center to be in the middle of the body using the margin style attribute 
+                I was also thinking of make a <div> element for each <li> element and for each div element, we will 
+                center the title of the recipe and include a different photo of the final product perhaps? -->
         <h1>
             Odin Recipes
         </h1>
-        <ul>
+        <!-- <ul>
             <li>
                 <a href = "./recipes/baked-ziti.html" target = "_blank">
                     Baked Ziti Recipe
@@ -28,6 +31,28 @@
                     Pumpkin Turkey Chili Recipe
                 </a>
             </li>
-        </ul>
+        </ul> -->
+        <div class = "recipes">
+            <a class = "home-a" href = "./recipes/braised-beef.html" target = "_blank">
+                <img class = "home-img" src = "recipe-images/braised-beef-index.jpg" alt = "Braised Beef Preperation">
+                <p>
+                    Braised Beef Recipe
+                </p>
+            </a>
+            <a class = "home-a" href = "./recipes/baked-ziti.html" target = "_blank">
+                <img class = "home-img" src = "recipe-images/baked-ziti-index.jpg" alt = "Braised Beef Preperation">
+                <p>
+                    Baked Ziti Recipe
+                </p>
+            </a>
+        </div>
+        <div class = "recipes">
+            <a class = "home-a" href = "./recipes/pumpkin-turkey-chili.html" target = "_blank">
+                <img class = "home-img" src = "recipe-images/pumpkin-turkey-chili-index.jpg" alt = "Braised Beef Preperation">
+                <p>
+                    Pumpkin Turkey Chili Recipe
+                </p>
+            </a>
+        </div>
     </body>
 </html>
